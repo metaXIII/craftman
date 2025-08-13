@@ -22,7 +22,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -37,7 +37,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -52,7 +52,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -67,7 +67,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -82,7 +82,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -97,7 +97,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -112,7 +112,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -127,7 +127,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -142,7 +142,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -157,7 +157,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -172,7 +172,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -187,7 +187,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -202,7 +202,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -217,7 +217,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -232,7 +232,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -247,7 +247,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -262,7 +262,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.quality).isEqualTo(expected);
+    Assertions.assertThat(item1.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -277,7 +277,7 @@ public class GildedRoseTest {
     gildedRose.updateQuality();
 
     // Then
-    Assertions.assertThat(item1.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item1.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -292,7 +292,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -307,7 +307,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -322,7 +322,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -337,7 +337,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -352,7 +352,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -367,7 +367,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -382,7 +382,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -397,7 +397,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -412,7 +412,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -427,7 +427,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -442,7 +442,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -457,7 +457,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -472,7 +472,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -487,7 +487,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.quality).isEqualTo(expected);
+    Assertions.assertThat(item.getQuality()).isEqualTo(expected);
   }
 
   @Test
@@ -502,7 +502,7 @@ public class GildedRoseTest {
     gildedrose.updateQuality();
 
     // Then
-    Assertions.assertThat(item.sellIn).isEqualTo(expected);
+    Assertions.assertThat(item.getSellIn()).isEqualTo(expected);
   }
 
   @Test
@@ -510,7 +510,6 @@ public class GildedRoseTest {
     // Given
     final Item[] items = new Item[0];
     final GildedRose gildedRose = new GildedRose(items);
-    final int expected = 0;
 
     // When
     gildedRose.updateQuality();

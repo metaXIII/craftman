@@ -2,15 +2,35 @@ package com.metaxiii.fr.craft;
 
 public class Item {
 
-  public String name;
+  private final String name;
 
-  public int sellIn;
+  private int sellIn;
 
-  public int quality;
+  private int quality;
 
   public Item(final String name, final int sellIn, final int quality) {
     this.name = name;
     this.sellIn = sellIn;
+    this.quality = quality;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public int getSellIn() {
+    return sellIn;
+  }
+
+  public void setSellIn(final int sellIn) {
+    this.sellIn = sellIn;
+  }
+
+  public int getQuality() {
+    return quality;
+  }
+
+  public void setQuality(final int quality) {
     this.quality = quality;
   }
 

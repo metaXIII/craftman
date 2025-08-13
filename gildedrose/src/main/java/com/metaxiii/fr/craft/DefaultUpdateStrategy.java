@@ -4,13 +4,13 @@ public class DefaultUpdateStrategy implements UpdateStrategy {
 
   @Override
   public void updateItem(final Item item) {
-    if (item.quality > 0) {
-      item.quality--;
+    if (item.getQuality() > 0) {
+      item.setQuality(item.getQuality() - 1);
     }
-    item.sellIn--;
-    if (item.sellIn < 0) {
-      if (item.quality > 0) {
-        item.quality--;
+    item.setSellIn(item.getSellIn() - 1);
+    if (item.getSellIn() < 0) {
+      if (item.getQuality() > 0) {
+        item.setQuality(item.getQuality() - 1);
       }
     }
   }

@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class GildedRose {
 
-  final Item[] items;
-  UpdateStrategyFactory updateStrategyFactory;
+  private final Item[] items;
+  private final UpdateStrategyFactory updateStrategyFactory;
 
   public GildedRose(final Item[] items) {
     this.items = items;
